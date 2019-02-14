@@ -1,0 +1,172 @@
+@import "./common";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/card/mdc-card";
+@import "@material/textfield/mdc-text-field";
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #bottles {
+    display: none;
+  }
+
+  #sugerencias {
+    display: none;
+  }
+  
+  #lugares {
+    display: contents;
+  }
+
+  #advice {
+    display: none;
+  }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #bottles {
+    display: none;
+  }
+  
+  #sugerencias {
+    display: none;
+  }
+
+  #lugares {
+    display: contents;
+  }
+
+  #bottles {
+    display: none;
+  }
+  #advice {
+    display: none;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #sugerencias {
+    display: contents;
+  }
+  #lugares {
+    display: none;
+  }
+  #bottles {
+    display: none;
+  }
+  #advice {
+    display: none;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #lugares {
+    display: contents;
+  }
+  #bottles {
+    display: contents;
+  }
+
+  #advice {
+    display: contents;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #lugares {
+    display: contents;
+  }
+  #bottles {
+    display: contents;
+  }
+
+  #advice {
+    display: contents;
+  }
+}
+
+.username,
+.password {
+  display: block;
+  width: 300px;
+  margin: 20px auto;
+  align-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.mdc-top-app-bar {
+  background-color: black;
+}
+
+.my-card-content {
+  padding: 16px;
+}
+
+.my-card {
+  height: 350px;
+  width: 350px;
+}
+
+#Capa_1 {
+  margin-top: 10%;
+  height: 10rem;
+  width: 10rem;
+  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#botellas {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#tipos2 {
+  margin-top: 1%;
+  height: 40%;
+  display: block;
+  align-content: center;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  
+}
+
+#info p {
+  color: lightgray;
+  text-align: center;
+  font-size: 20px;
+}
+
+#tipos {
+  margin-top: 1%;
+  height: 40%;
+  align-content: center;
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+body {
+  background-image: url("/assets/bg-home.jpg");
+  background-color: lightgray;
+}
+
+.shrine-logo {
+  width: 150px;
+  height: 150px;
+  padding-top: 80px;
+  fill: currentColor;
+}
