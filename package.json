@@ -21,8 +21,11 @@
     "webpack-dev-server": "^2.4.3"
   },
   "dependencies": {
+    "@material/button": "^0.44.1",
     "@material/card": "^0.44.0",
-    "@material/textfield": "^0.40.0",
+    "@material/icon-button": "^0.44.1",
+    "@material/layout-grid": "^0.41.0",
+    "@material/textfield": "^0.40.1",
     "@material/top-app-bar": "^0.44.0",
     "bootstrap": "^4.3.1",
     "selenium-standalone": "^6.15.4",

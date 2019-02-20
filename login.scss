@@ -2,6 +2,10 @@
 @import "@material/top-app-bar/mdc-top-app-bar";
 @import "@material/card/mdc-card";
 @import "@material/textfield/mdc-text-field";
+@import "@material/button/mdc-button";
+@import "@material/layout-grid/mdc-layout-grid";
+@import "@material/icon-button/mdc-icon-button";
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -169,4 +173,13 @@ body {
   height: 150px;
   padding-top: 80px;
   fill: currentColor;
+}
+
+.myCard {
+  max-width: 450px;
+}
+
+.cardHeading {
+  padding: 10px;
+  font-size: 20px;
 }
